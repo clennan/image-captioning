@@ -1,5 +1,5 @@
 # Image captioning system with Deep Taylor Decomposition to visualize attention maps
-Generates caption for an image and creates heatmap that highlights image pixels that were important for attention mechanism. For implementation details see [Thesis](https://raw.githubusercontent.com/clennan/image-captioning/master/src/readme_files/thesis.pdf).
+Generates caption for an image and creates heatmap that highlights image pixels that were important for attention mechanism. For implementation details see [Thesis](https://raw.githubusercontent.com/clennan/image-captioning/master/src/readme_files/clennan_thesis.pdf).
 
 Example output:
 
