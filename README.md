@@ -1,4 +1,9 @@
 # Image captioning system with Deep Taylor Decomposition to visualize attention maps
+Generates caption for an image and creates heatmap that highlights image pixels that were important for attention mechanism. For example
+
+<div align="center">
+  <img src="https://github.com/clennan/image-captioning/src/readme_files/COCO_val2014_000000038678_dtdc_alpha2.pdf"><br><br>
+</div>
 
 **Setup:**
 - create Python 2 virtual environment and activate the environment
@@ -25,7 +30,8 @@ wget -P data ftp://mi.eng.cam.ac.uk/pub/mttt2/models/vgg16.npy
 
 ```
 wget https://www.dropbox.com/s/laexkey0a4hqc9u/models.zip &&
-unzip models.zip
+unzip models.zip &&
+rm models.zip
 ```
 
 
