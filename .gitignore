@@ -108,3 +108,5 @@ models/
 __MACOSX/
 
 src/coco_caption/
+
+results/
