@@ -2,7 +2,7 @@
 Generates caption for an image and creates heatmap that highlights image pixels that were important for attention mechanism. For example
 
 <div align="center">
-  <img src="https://github.com/clennan/image-captioning/src/readme_files/COCO_val2014_000000038678_dtdc_alpha2.pdf"><br><br>
+  <img src="https://github.com/clennan/image-captioning/src/readme_files/example.png"><br><br>
 </div>
 
 **Setup:**
