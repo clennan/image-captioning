@@ -1,7 +1,14 @@
 # Image captioning system with Deep Taylor Decomposition to visualize attention maps
 
 **Setup:**
-- create Python 2 virtual environment and install dependencies with
+- create Python 2 virtual environment and activate the environment
+
+```
+virtualenv ~/.venvs/image-captioning
+source ~/.venvs/image-captioning/bin/activate
+```
+
+- install Python dependencies with
 
 ```
 pip install -r requirements.txt
@@ -11,7 +18,7 @@ pip install -r requirements.txt
 - download VGG16 pretrained weights
 
 ```
-wget ftp://mi.eng.cam.ac.uk/pub/mttt2/models/vgg16.npy data/vgg16.npy
+wget -P data ftp://mi.eng.cam.ac.uk/pub/mttt2/models/vgg16.npy
 ```
 
 - download pretrained image captioning model (trained by Christopher Lennan) and unzip
